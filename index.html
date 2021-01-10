@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FONT AWESOME ICON CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <title>Weather App</title>
+  <!-- STYLESHEET -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- APP LOGIC SCRIPT -->
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <main>
+    <div class="input">
+      <input type="text" id="cityInput" placeholder="Type a city..." autocomplete="new-password">
+      <button id="submit"><i class="fas fa-search"></i></button>
+    </div>
+    <div class="weather-card">
+      <div class="info-container">
+        <div id="date" class="date small-t">
+          MADE BY
+        </div>
+        <div id="time" class="time medium-t">
+          DOMINYKAS
+        </div>
+        <div id="city" class="city small-t">
+          DRIUKAS
+        </div>
+      </div>
+      <div class="weather-icon">
+        <img src="./SVG/Cloud.svg" alt="" id="weather-icon">
+      </div>
+      <div id="temp" class="temp-now big-t">
+      </div>
+      <div class="condition medium-t">
+      </div>
+      <div class="high-low">
+        <div class="high">H: 3</div>
+        <div class="low">L: 1</div>
+      </div>
+      <div class="weekday small-t">
+      </div>
+      <div class="forecast" style="display: none;">
+        <div class="forecast one"></div>
+        <div class="forecast two"></div>
+        <div class="forecast three"></div>
+        <div class="forecast four"></div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+<!-- Created by Dominykas Driukas -->
+<!-- Icon set by Charlotte de Wolfe -->
