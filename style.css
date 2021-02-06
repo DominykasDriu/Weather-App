@@ -126,4 +126,10 @@ main .weather-card .high-low {
 main .weather-card .high-low * {
   margin: 0 5px;
 }
+
+@media (max-width: 500px) {
+  main {
+    width: 90%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
