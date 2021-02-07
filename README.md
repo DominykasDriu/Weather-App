@@ -3,4 +3,6 @@ My first project where I feel it is worth to be on gitHub. Did everything myself
 
 Project is built using HTML, SCSS and ES6 JS. And https://openweathermap.org/api for weather data.
 
+You can find the project here: https://eather.netlify.app
+
 Let me know what you think!
